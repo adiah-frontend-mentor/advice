@@ -27,12 +27,6 @@ function App() {
   function getNewAdvice() {
     setCount(oldCount => oldCount + 1)
     console.log(count)
-    // fetch(	"https://api.adviceslip.com/advice")
-    // .then(response => response.json())
-    // .then(response => {
-    //   setAdviceData(response);
-    //   console.log(response);
-    // })
   }
 
   return (
