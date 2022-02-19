@@ -1,13 +1,17 @@
 .advice {
 	position: relative;
 	background-color: $grayishBlue;
-	max-width: 541px;
+	// max-width: 541px;
 	border-radius: 16px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	margin: 120px 15px;
+
+	@include breakpoint-up(medium) {
+		width: 541px;
+	}
 
 	&__heading {
 		margin-top: 40px;

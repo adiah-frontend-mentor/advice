@@ -43,7 +43,6 @@ h1, h2, h3, p, a {
 .advice {
   position: relative;
   background-color: #313a49;
-  max-width: 541px;
   border-radius: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +58,12 @@ h1, h2, h3, p, a {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 120px 15px;
+}
+
+@media (min-width: 40em) {
+  .advice {
+    width: 541px;
+  }
 }
 
 .advice__heading {
